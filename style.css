@@ -1,0 +1,64 @@
+.left {
+  flex-grow: 1;
+  background-color: #eefbf8;
+}
+
+.right {
+  flex-grow: 2;
+  background-color: #d2f5f2;
+}
+
+/* .profile-below i {
+  padding-right: 1rem;
+} */
+
+.pseudo::after {
+  content: " ";
+  background-color: #eefbf8;
+  padding: 8px 100px;
+  border-radius: 20px;
+  position: absolute;
+  top: 120px;
+  left: 80px;
+  /* right: ; */
+}
+
+.pseudo::before {
+  content: " ";
+  padding: 5rem 5rem;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #eafaf6;
+  filter: blur(15px);
+}
+
+.block {
+  background-color: #92e6d9;
+}
+
+.card {
+  background-color: #eefbf8;
+}
+
+.join_pro {
+  background-color: #92e6d9;
+}
+
+.text {
+  color: #92e6d9;
+}
+
+.Onegradient {
+  /* font-size: 18px; */
+  background: -webkit-linear-gradient(#469ad1, #1db39c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.head-gradient {
+  background: -webkit-linear-gradient(#a5a5a5, #38539c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

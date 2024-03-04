@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Active Game template</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="   " />
+     -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="wrapper bg-black h-screen overflow-hidden w-full">
+      <div class="container flex h-screen w-3/4 m-auto">
+        <div class="left max-w-72 rounded-lg">
+          <div class="profile flex flex-col items-center justify-center pt-14">
+            <img
+              src="https://imgs.search.brave.com/syssE5L1Rg5E1pnbjYCd7XwnArNdLMZ-PHPig00siHg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9idWZm/ZXIuY29tL2xpYnJh/cnkvY29udGVudC9p/bWFnZXMvMjAyMi8w/My9za2l0Y2gtLTct/LnBuZw"
+              class="h-20 w-20 rounded-full"
+            />
+
+            <p class="font-bold text-slate-500">Simo Edwin</p>
+            <p class="text-slate-400">Pro Member</p>
+          </div>
+
+          <div class="text mt-16 profile-below">
+            <p class="text-center font-bold text-xl mt-6 Onegradient">
+              <i class="fa-regular fa-message pr-6"></i>Streams
+            </p>
+            <p class="text-center font-bold text-xl mt-6 Onegradient">
+              <i class="fa-solid fa-dice pr-6"></i> Games
+            </p>
+            <p class="text-center font-bold text-xl mt-6 Onegradient">
+              <i class="fa-solid fa-gamepad mr-4"></i> Play new
+            </p>
+            <p class="text-center font-bold text-xl mt-6 Onegradient">
+              <i class="fa-solid fa-book pr-6"></i>Liabrary
+            </p>
+          </div>
+
+          <div
+            class="join_pro flex justify-between h-24 w-3/4 m-auto mb-16 mt-20 rounded-lg items-center"
+          >
+            <div class="heading">
+              <h3 class="text-white text-lg font-bold ml-8">
+                Join Pro <br />
+                for free <br />
+                Games
+              </h3>
+            </div>
+            <div class="im">
+              <img src="gamepad-png-open-2000.webp" class="h-20 w-20 mr-4" />
+            </div>
+          </div>
+        </div>
+        <div class="right relative">
+          <div class="active-games">
+            <h1
+              class="font-bold text-3xl mt-20 ml-20 text-gray-400 pseudo head-gradient"
+            >
+              Active Games
+            </h1>
+          </div>
+          <div class="games mt-20">
+            <div class="score h-screen w-full text-slate-500">
+              <div
+                class="card flex w-5/6 px-5 py-3 ml-16 justify-between rounded-lg"
+              >
+                <img
+                  src="https://imgs.search.brave.com/CNh3nUs58bp3T_qRHWygvlvxwfJCbFwaWAq-rv4c-hw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGVub2ZnZWVrLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/My8xMC9BQy1Ccm90/aGVyaG9vZC52MS5q/cGc_cmVzaXplPTc2/OCw0MzI"
+                  alt=""
+                  class="h-16 w-16 mt-1 rounded-3xl"
+                />
+
+                <div>
+                  <h3 class="font-bold text-slate-400">
+                    Assaissins Creed Valhalla
+                  </h3>
+
+                  <p>PS5 Verison</p>
+                  <div class="block px-24 py-3 mt-1 rounded-2xl w-5/12"></div>
+                </div>
+
+                <p class="mt-1 font-bold text-slate-400">60%</p>
+              </div>
+
+              <div
+                class="card flex w-5/6 px-5 py-3 ml-16 justify-between rounded-lg mt-5"
+              >
+                <img
+                  src="https://imgs.search.brave.com/CNh3nUs58bp3T_qRHWygvlvxwfJCbFwaWAq-rv4c-hw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGVub2ZnZWVrLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/My8xMC9BQy1Ccm90/aGVyaG9vZC52MS5q/cGc_cmVzaXplPTc2/OCw0MzI"
+                  alt=""
+                  class="h-16 w-16 mt-1 rounded-3xl"
+                />
+
+                <div>
+                  <h3 class="font-bold text-slate-400">
+                    Assaissins Creed Valhalla
+                  </h3>
+
+                  <p>PS5 Verison</p>
+                  <div class="block px-24 py-3 mt-1 rounded-2xl w-5/12"></div>
+                </div>
+
+                <p class="mt-1 font-bold text-slate-400">60%</p>
+              </div>
+
+              <div
+                class="card flex w-5/6 px-5 py-3 ml-16 justify-between rounded-lg mt-5"
+              >
+                <img
+                  src="https://imgs.search.brave.com/CNh3nUs58bp3T_qRHWygvlvxwfJCbFwaWAq-rv4c-hw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGVub2ZnZWVrLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/My8xMC9BQy1Ccm90/aGVyaG9vZC52MS5q/cGc_cmVzaXplPTc2/OCw0MzI"
+                  alt=""
+                  class="h-16 w-16 mt-1 rounded-3xl"
+                />
+
+                <div>
+                  <h3 class="font-bold text-slate-400">
+                    Assaissins Creed Valhalla
+                  </h3>
+
+                  <p>PS5 Verison</p>
+                  <div class="block px-24 py-3 mt-1 rounded-2xl w-5/12"></div>
+                </div>
+
+                <p class="mt-1 font-bold text-slate-400">60%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
